@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+section {
+    height: 100vh;
+    
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/*....................................Main content with images starts....................................*/
+
+
+
+.h1 {
+    max-width: 650px;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #1E0E62;
+    margin-bottom: 6px;
+    padding-left: 12px;
+    margin-left: -12px;
+    font-weight: 600;
+}
+
+.title {
+    width: 118px;
+    height: 26px;
+    top: 207px;
+    left: 115px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #A1A1B0;
+    margin-bottom: 29.8px;
+
+}
+
+.para1 {
+    width: 700px;
+    height: 84px;
+    top: 262.8px;
+    left: 115px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #1E0E62;
+    margin-bottom: 34px;
+    font-weight: 500;
+
+}
+
+
+.para2 {
+    width: 700px;
+    height: 84px;
+    top: 262.8px;
+    left: 115px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #1E0E62;
+    margin-bottom: 18px;
+    font-weight: 500;
+
+}
+
+.title2 {
+    width: 161px;
+    height: 32px;
+    top: 473px;
+    left: 115px;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    color: #1E0E62;
+    margin-bottom: 13.6px;
+
+}
+
+.para3 {
+    width: 700px;
+    height: 78px;
+    top: 518.6px;
+    left: 115px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #A1A1B0;
+    margin-bottom: 52.2px;
+}
+
+img {
+    width: 700px;
+    height: 400px;
+    top: 648.8px;
+    left: 115px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 26.4px;
+}
+
+.title3 {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #A1A1B0;
+    margin-bottom: 29.4px;
+}
+
+.para4 {
+    width: 700px;
+    height: 78px;
+    top: 518.6px;
+    left: 115px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 52.2px;
+    color: #A1A1B0;
+}
+
+.title4 {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #A1A1B0;
+    margin-bottom: 29.8px;
+}
+
+.para5 {
+    width: 700px;
+    height: 78px;
+    top: 518.6px;
+    left: 115px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+
+    color: #A1A1B0;
+}
+
+/*....................................Main content with images Ended....................................*/
+
+
+
+
+
+
+
+
+/*.................................input section Ended.......................................... */
+.main-card {
+    width: 378px;
+    height: 693.6px;
+    top: 94px;
+    left: 915px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.card {
+    width: 370px;
+    height: 109.6px;
+    top: 138px;
+    left: 915px;
+    gap: 0px;
+    opacity: 0px;
+  
+
+
+}
+
+
+
+.card-img1 {
+    width: 170px;
+    height: 105px;
+    top: 138px;
+    left: 915px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.card2 {
+    width: 400px;
+    height: 186px;
+    border: 2px solid #EBEAED;
+    border-radius: 10px
+}
+
+.card-heading {
+    color: #1E0E62;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 32px;
+    padding-top: 31.2px;
+    margin-bottom: 2px;
+
+
+}
+
+.sub-head {
+    color: #A1A1B0;
+    padding-left: 32px;
+    margin-bottom: 18.8px;
+}
+
+.search {
+    width: 220px;
+    height: 50px;
+    top: 939px;
+    left: 945px;
+    padding-left: 32px;
+
+}
+
+.input {
+    padding: 12px 108px 12px 24px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+}
+
+.button {
+    padding: 14px 18px 14px 18px;
+    border-radius: 80px;
+    margin-left: 10px;
+    background-color: #25DAC5;
+    border: 2px solid #25DAC5;
+    
+
+}
+
+/*.................................input section Ended.......................................... */
+
+
+
+
+
+
+
+
+/*..................................cards starts here............................... */
+
+.title5 {
+    color: #A1A1B0;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.card {
+    margin-bottom: 27px;
+}
+
+.card-img4 {
+    width: 170px;
+    height: 105px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.details {
+    margin-left: 19px;
+}
+
+.para {
+    line-height: 26px;
+    width: 181px;
+    margin-bottom: 3.6px;
+    color: #1E0E62;
+}
+
+.para-189 {
+    line-height: 26px;
+    width: 189px;
+    margin-bottom: 29.6px;
+
+}
+
+.date {
+    line-height: 26px;
+    color: #A1A1B0;
+}
+
+
+
+/* ...................................cards ended here....................................... */
+
+
+
+
+
+
+
+
+
+/*.....................................button section starts................................. */
+.button-1{
+   
+    padding: 7px 20px 7px 20px;
+    border-radius: 80px;
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+   background-color: #E93A7D;
+   border: 2px solid #E93A7D;
+   margin-left: 0px;
+}
+
+.fw{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*.....................................button section Ended................................. */
+
+
+
+
+/* ===================================responsive================================= */
+.col-12{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+.mr12{
+    margin-right: 12px;
+}
+}
+
+
+@media (min-width:992px) {
+    .col-lg-8{
+        width: 66.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+    
+}
